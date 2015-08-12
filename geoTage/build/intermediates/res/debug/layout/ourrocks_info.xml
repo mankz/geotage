@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/screen.with_padding" >
+
+    <TextView
+        android:id="@+id/ourrocks_info_tvTitle"
+        style="@style/text.label.center"
+        android:text="Title" />
+
+    <WebView
+        android:id="@+id/ourrocks_info_wvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+    </WebView>
+
+    <LinearLayout style="@style/panel_button" >
+
+        <Button
+            android:id="@+id/ourrocks_info_btnBack"
+            style="@style/colored_button.blue"
+            android:text="Back" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/mankz_/Documents/Migrasi/GeoTage/geoTage/src/main/res/layout/ourrocks_info.xml -->

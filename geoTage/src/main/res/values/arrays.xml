@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="rock_categories">
+        <item>Choose rock category</item><item>Outcrop</item>
+        <item>Geoheritage</item>
+        <item>Alluvial</item>
+        
+    </string-array>
+    <string-array name="rock_types">
+        <item>Choose rock type</item><item >Rock type 1</item>
+        <item >Rock type 2</item>
+        <item >Rock type 3</item>
+        
+    </string-array>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/red_round_bg_pressed_small" android:state_selected="true"></item>
+    <item android:drawable="@drawable/red_round_bg_pressed_small" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/red_round_bg_default_small"></item>
+
+    <padding android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp" />
+
+</selector><!-- From: file:/C:/Users/mankz_/Documents/Migrasi/GeoTage/geoTage/src/main/res/drawable/red_round_selector_small.xml -->

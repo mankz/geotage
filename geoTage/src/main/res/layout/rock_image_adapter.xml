@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/distance_short" >
+
+    <ImageView
+        android:id="@+id/rock_image_adapter_iv"
+        android:layout_width="@dimen/rock_photo_width"
+        android:layout_height="@dimen/rock_photo_height"
+        android:scaleType="centerCrop" />
+
+    <ProgressBar
+        android:id="@+id/rock_image_adapter_progress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="@dimen/rock_photo_width"
+        android:layout_height="@dimen/rock_photo_height" />
+
+    <TextView
+        android:id="@+id/rock_image_adapter_tv"
+        style="@style/text.small"
+        android:layout_width="@dimen/rock_photo_width"
+        android:layout_gravity="bottom"
+        android:background="#7000"
+        android:padding="2dp"
+        android:text="Caption"
+        android:textColor="@color/clouds"
+        android:visibility="gone" />
+
+</FrameLayout>

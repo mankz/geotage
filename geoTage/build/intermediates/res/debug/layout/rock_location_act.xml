@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/rock_location_act_map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        map:cameraZoom="10"
+        map:mapType="terrain"
+        map:uiCompass="false"
+        map:uiRotateGestures="true"
+        map:uiScrollGestures="true"
+        map:uiTiltGestures="true"
+        map:uiZoomControls="true"
+        map:uiZoomGestures="true" />
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="@dimen/distance_short"
+        android:layout_marginLeft="@dimen/distance_normal" >
+
+        <Button
+            android:id="@+id/rock_location_act_traffic"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Traffic" />
+
+        <Button
+            android:id="@+id/rock_location_act_terrain"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Terrain" />
+
+        <Button
+            android:id="@+id/rock_location_act_satellite"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Satellite" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/toolbar"
+        android:layout_gravity="top"
+        android:gravity="left"
+        android:paddingLeft="0dp" >
+
+        <TextView
+            style="@style/toolbar_title_with_back"
+            android:text="Object Location" >
+        </TextView>
+    </LinearLayout>
+
+</FrameLayout><!-- From: file:/C:/Users/mankz_/Documents/Migrasi/GeoTage/geoTage/src/main/res/layout/rock_location_act.xml -->

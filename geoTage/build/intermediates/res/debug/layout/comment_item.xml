@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/screen.with_padding"
+    android:orientation="horizontal"  >
+
+    <ImageView android:layout_marginTop="4dp"
+        android:id="@+id/comment_item_avatar"        android:layout_width="@dimen/avatar_thumbnail"
+        android:layout_height="@dimen/avatar_thumbnail"
+        android:src="@drawable/no_avatar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/distance_normal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/comment_item_tvName"
+            style="@style/text.medium"
+            android:text="User name" android:textColor="@color/midnight_blue"/>
+
+        <TextView
+            android:id="@+id/comment_item_tvMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+
+        <TextView
+            android:id="@+id/comment_item_tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/mankz_/Documents/Migrasi/GeoTage/geoTage/src/main/res/layout/comment_item.xml -->

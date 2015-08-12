@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/screen"
+    android:orientation="vertical" >
+
+    <com.markupartist.android.widget.PullToRefreshListView
+        android:id="@+id/directory_fragment_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:divider="@color/silver"
+        android:dividerHeight="1dp"
+        tools:listitem="@layout/info_item" >
+    </com.markupartist.android.widget.PullToRefreshListView>
+
+    <TextView android:gravity="center" android:visibility="gone"
+        android:id="@+id/directory_fragment_tvLoadMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/distance_normal"
+        android:text="Loading  ..." >
+    </TextView>
+
+</LinearLayout><!-- From: file:/C:/Users/mankz_/Documents/Migrasi/GeoTage/geoTage/src/main/res/layout/directory_fragment.xml -->

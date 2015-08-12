@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/screen.with_padding" >
+
+    <TextView
+        style="@style/text.label.center"
+        android:text="Contact Us" />
+
+    <LinearLayout style="@style/panel_form" >
+
+        <EditText
+            style="@style/text.field"
+            android:gravity="left|top"
+            android:hint="Your message"
+            android:lines="10"
+            android:singleLine="false" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/panel_button" >
+        <Button
+            android:id="@+id/contact_us_btnCancel"
+            style="@style/colored_button.red"
+            android:text="Cancel" />
+        
+        <Button android:layout_marginLeft="@dimen/distance_normal"
+            android:id="@+id/contact_us_btnSend"
+            style="@style/colored_button.blue"
+            android:text="Send" />
+
+    </LinearLayout>
+
+</LinearLayout>

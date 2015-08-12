@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        style="@style/screen.with_padding"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/rock_desc_fragment_tvTitle"
+            style="@style/text.medium.bold"
+            android:text="Rock name - Rock category"
+            android:textColor="@color/pomegranate" />
+
+        <TextView
+            style="@style/text.medium.bold"
+            android:layout_marginTop="@dimen/distance_short"
+            android:text="Photo" />
+
+        <!-- <GridView -->
+        <!-- android:id="@+id/rock_desc_gridImages" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:numColumns="3" -->
+        <!-- tools:items="6" -->
+        <!-- tools:listitem="@layout/rock_image_adapter" > -->
+        <!-- </GridView> -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <FrameLayout
+                android:id="@+id/rock_desc_frag_frame1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/distance_short"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/rock_desc_fragment_iv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/placeholder" />
+
+                <ProgressBar
+                    android:id="@+id/rock_desc_fragment_prog1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/rock_desc_frag_frame2"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/distance_short"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/rock_desc_fragment_iv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/placeholder" />
+
+                <ProgressBar
+                    android:id="@+id/rock_desc_fragment_prog2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/rock_desc_frag_frame3"
+                android:layout_width="0dp" 
+                    android:layout_margin="@dimen/distance_short"
+                android:layout_height="100dp"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/rock_desc_fragment_iv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/placeholder" />
+
+                <ProgressBar
+                    android:id="@+id/rock_desc_fragment_prog3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rock_desc_frag_tvMoreImages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/distance_short"
+            android:padding="@dimen/distance_short"
+            android:text="See more images >>"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/blue" />
+
+        <Button
+            android:id="@+id/rock_desc_fragment_btnShowLocation"
+            style="@style/colored_button.green"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/distance_normal"
+            android:text="Show Location" />
+
+        <TextView
+            style="@style/text.medium.bold"
+            android:layout_marginTop="@dimen/distance_normal"
+            android:text="Description" />
+
+        <TextView
+            android:id="@+id/rock_desc_fragment_tvDesc"
+            style="@style/text.normal"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." >
+        </TextView>
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/text.medium.bold"
+            android:layout_marginTop="@dimen/distance_normal"
+            android:text="Formation" />
+
+        <TextView
+            android:id="@+id/rock_desc_fragment_tvFormation"
+            style="@style/text.normal"
+            android:text="Rock formation here" >
+        </TextView>
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/text.medium.bold"
+            android:layout_marginTop="@dimen/distance_normal"
+            android:text="Address" />
+
+        <TextView
+            android:id="@+id/rock_desc_fragment_tvAddress"
+            style="@style/text.normal"
+            android:text="Rock address here" >
+        </TextView>
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/text.medium.bold"
+            android:layout_marginTop="@dimen/distance_normal"
+            android:text="Added By" />
+
+        <TextView
+            android:id="@+id/rock_desc_fragment_tvAddedBy"
+            style="@style/text.normal"
+            android:text="User name here" >
+        </TextView>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/C:/Users/mankz_/Documents/Migrasi/GeoTage/geoTage/src/main/res/layout/rock_desc_fragment.xml -->

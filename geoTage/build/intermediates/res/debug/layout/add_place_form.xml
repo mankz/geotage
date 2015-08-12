@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/screen"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/toolbar"
+        android:gravity="left"
+        android:paddingLeft="0dp" >
+
+        <TextView
+            style="@style/toolbar_title_with_back"
+            android:onClick="goBack"
+            android:text="Add GeoTage" >
+        </TextView>
+    </LinearLayout>
+
+    <ScrollView
+        style="@style/screen.with_padding"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            style="@style/screen"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    style="@style/text.medium"
+                    android:layout_marginLeft="@dimen/distance_normal"
+                    android:text="Select Category * : " >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/add_place_form_spinCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/rock_categories"
+                    tools:listitem="@android:layout/simple_list_item_1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    style="@style/text.medium"
+                    android:layout_marginLeft="@dimen/distance_normal"
+                    android:text="Select Type * : " >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/add_place_form_spinType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/rock_types"
+                    tools:listitem="@android:layout/simple_list_item_1" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/add_place_form_etName"
+                style="@style/text.field.singleLine"
+                android:hint="Name *" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/add_place_form_etFormation"
+                style="@style/text.field.singleLine"
+                android:hint="Formation *" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/add_place_form_etAddress"
+                style="@style/text.field"
+                android:gravity="left|top"
+                android:hint="Address *"
+                android:lines="2" />
+
+            <EditText
+                android:id="@+id/add_place_form_etCity"
+                style="@style/text.field.singleLine"
+                android:hint="City *" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/add_place_form_etLatitude"
+                    style="@style/text.field.singleLine"
+                    android:layout_weight="1"
+                    android:hint="Latitude *"
+                    android:text="0.0" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/add_place_form_etLongitude"
+                    style="@style/text.field.singleLine"
+                    android:layout_weight="1"
+                    android:hint="Longitude *"
+                    android:text="0.0" />
+
+                <Button
+                    android:id="@+id/add_place_form_btnSetLocation"
+                    style="@style/colored_button.blue"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="@dimen/distance_short"
+                    android:text="Set Coordinate" >
+                </Button>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/add_place_form_etDescription"
+                style="@style/text.field"
+                android:gravity="top"
+                android:hint="Description *"
+                android:inputType="textMultiLine"
+                android:lines="4" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/add_place_form_ibAddPhoto1"
+                        style="@style/add_place_form_photo"
+                        android:onClick="addPhoto" />
+
+                    <ProgressBar
+                        android:id="@+id/add_place_form_progress1"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/add_place_form_ibAddPhoto2"
+                        style="@style/add_place_form_photo"
+                        android:onClick="addPhoto" />
+
+                    <ProgressBar
+                        android:id="@+id/add_place_form_progress2"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/add_place_form_ibAddPhoto3"
+                        style="@style/add_place_form_photo"
+                        android:onClick="addPhoto" />
+
+                    <ProgressBar
+                        android:id="@+id/add_place_form_progress3"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/add_place_form_ibAddPhoto4"
+                        style="@style/add_place_form_photo"
+                        android:onClick="addPhoto" />
+
+                    <ProgressBar
+                        android:id="@+id/add_place_form_progress4"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/add_place_form_ibAddPhoto5"
+                        style="@style/add_place_form_photo"
+                        android:onClick="addPhoto" />
+
+                    <ProgressBar
+                        android:id="@+id/add_place_form_progress5"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/add_place_form_ibAddPhoto6"
+                        style="@style/add_place_form_photo"
+                        android:onClick="addPhoto" />
+
+                    <ProgressBar
+                        android:id="@+id/add_place_form_progress6"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <TextView
+                style="@style/text.medium"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/distance_short"
+                android:text="( at least 1 photo, max 6 photos )" >
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/distance_very_long"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/add_place_form_btnSaveToDraft"
+                    style="@style/colored_button.green"
+                    android:text="Save to Draft" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" >
+                </View>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/add_place_form_btnSave"
+                        style="@style/colored_button.green"
+                        android:layout_marginRight="@dimen/distance_normal"
+                        android:text="Upload" />
+
+                    <Button
+                        android:id="@+id/add_place_form_btnCancel"
+                        style="@style/colored_button.red"
+                        android:text="Cancel" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/C:/Users/mankz_/Documents/Migrasi/GeoTage/geoTage/src/main/res/layout/add_place_form.xml -->

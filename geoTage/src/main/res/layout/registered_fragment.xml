@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/screen.with_padding"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/text.lightblue.bold"
+        android:gravity="center"
+        android:text="Thank you for Register..!!"
+        android:textSize="@dimen/text_large" />
+
+    <TextView
+        style="@style/text.small"
+        android:layout_marginTop="@dimen/distance_normal"
+        android:gravity="center"
+        android:text="We will send confirmation to your email as soon as possible" />
+
+    <Button
+        android:id="@+id/registered_btnBack"
+        style="@style/colored_button.green"
+        android:layout_marginTop="@dimen/distance_very_long"
+        android:text="Back to main setting" />
+
+</LinearLayout>

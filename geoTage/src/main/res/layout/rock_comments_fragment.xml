@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/screen.with_padding"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/text.label.center"
+        android:text="Discussion Hall" />
+
+    <eu.erikw.PullToRefreshListView
+        android:id="@+id/rock_comments_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/distance_short"
+        android:layout_weight="1" >
+</eu.erikw.PullToRefreshListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/distance_short" >
+
+        <EditText
+            android:id="@+id/rock_comments_etComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/distance_short"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/rock_comment_btnSend"
+            style="@style/colored_button.blue"
+            android:layout_width="wrap_content"
+            android:text="Post" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,153 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From GeoTage:
+* ic_launcher-web.png
+* proguard-project.txt
+From ImageSlider:
+* proguard-project.txt
+From PullToRefreshListView:
+* build.gradle
+* proguard.cfg
+From ScaleImageView:
+* .gitignore
+* License
+* README.md
+From UniversalImageLoader:
+* pom.xml
+* test-gen\
+* test-gen\com\
+* test-gen\com\nostra13\
+* test-gen\com\nostra13\universalimageloader\
+* test-gen\com\nostra13\universalimageloader\R.java
+* test\
+* test\com\
+* test\com\nostra13\
+* test\com\nostra13\universalimageloader\
+* test\com\nostra13\universalimageloader\core\
+* test\com\nostra13\universalimageloader\core\assist\
+* test\com\nostra13\universalimageloader\core\assist\ImageSizeTest.java
+* test\com\nostra13\universalimageloader\core\download\
+* test\com\nostra13\universalimageloader\core\download\BaseImageDownloaderTest.java
+From Volley:
+* .gitignore
+* Android.mk
+* build.gradle
+* build.xml
+* custom_rules.xml
+* proguard-project.txt
+* proguard.cfg
+* tests\
+* tests\.classpath
+* tests\.project
+* tests\Android.mk
+* tests\project.properties
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+google-play-services_lib => [com.google.android.gms:play-services:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In ImageSlider:
+* AndroidManifest.xml => imageSlider\src\main\AndroidManifest.xml
+* assets\ => imageSlider\src\main\assets
+* libs\NineOldAndroid-2.4.0.jar => imageSlider\libs\NineOldAndroid-2.4.0.jar
+* libs\picasso-2.3.3.jar => imageSlider\libs\picasso-2.3.3.jar
+* res\ => imageSlider\src\main\res\
+* src\ => imageSlider\src\main\java\
+In PhotoView:
+* AndroidManifest.xml => photoView\src\main\AndroidManifest.xml
+* assets\ => photoView\src\main\assets
+* res\ => photoView\src\main\res
+* src\ => photoView\src\main\java\
+In PullToRefreshListView:
+* AndroidManifest.xml => pullToRefreshListView\src\main\AndroidManifest.xml
+* assets\ => pullToRefreshListView\src\main\assets
+* res\ => pullToRefreshListView\src\main\res\
+* src\ => pullToRefreshListView\src\main\java\
+In ScaleImageView:
+* AndroidManifest.xml => scaleImageView\src\main\AndroidManifest.xml
+* assets\ => scaleImageView\src\main\assets
+* res\ => scaleImageView\src\main\res\
+* src\ => scaleImageView\src\main\java\
+In UniversalImageLoader:
+* AndroidManifest.xml => universalImageLoader\src\main\AndroidManifest.xml
+* assets\ => universalImageLoader\src\main\assets
+* res\ => universalImageLoader\src\main\res
+* src\ => universalImageLoader\src\main\java\
+In Volley:
+* AndroidManifest.xml => volley\src\main\AndroidManifest.xml
+* assets\ => volley\src\main\assets
+* res\ => volley\src\main\res
+* src\ => volley\src\main\java\
+* tests\res\ => volley\src\androidTest\res\
+* tests\src\ => volley\src\androidTest\java\
+In pulltorefresh:
+* AndroidManifest.xml => pulltorefresh\src\main\AndroidManifest.xml
+* assets\ => pulltorefresh\src\main\assets
+* res\ => pulltorefresh\src\main\res\
+* src\ => pulltorefresh\src\main\java\
+In GeoTage:
+* AndroidManifest.xml => geoTage\src\main\AndroidManifest.xml
+* assets\ => geoTage\src\main\assets\
+* libs\acra-4.5.0.jar => geoTage\libs\acra-4.5.0.jar
+* libs\apache-mime4j-0.6.jar => geoTage\libs\apache-mime4j-0.6.jar
+* libs\httpmime-4.0.1.jar => geoTage\libs\httpmime-4.0.1.jar
+* libs\imgscalr-lib-4.2.jar => geoTage\libs\imgscalr-lib-4.2.jar
+* res\ => geoTage\src\main\res\
+* src\ => geoTage\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

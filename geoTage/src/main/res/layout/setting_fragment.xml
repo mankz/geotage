@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/screen.with_padding"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/text.label.center"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="Setting" />
+
+    <LinearLayout
+        style="@style/screen.with_padding"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/text.medium.bold"
+            android:text="Account" />
+
+        <View style="@style/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/setting_fragment_tvUsername"
+                style="@style/text.normal"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Username" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/setting_fragment_btnEdit"
+                    style="@style/colored_button.blue"
+                    android:text="Edit" />
+
+                <Button
+                    android:id="@+id/setting_fragment_btnLogout"
+                    style="@style/colored_button.red"
+                    android:layout_marginLeft="@dimen/distance_short"
+                    android:text="Logout" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/line" />
+
+        <TextView
+            android:id="@+id/setting_fragment_changePassword"
+            style="@style/text.normal"
+            android:text="Change password" />
+
+        <TextView
+            style="@style/text.medium.bold"
+            android:layout_marginTop="@dimen/distance_very_long"
+            android:text="Notifications" />
+
+        <View style="@style/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                 android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="All notification of this application" />
+
+            <ToggleButton
+                android:id="@+id/setting_fragment_toggleNotification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ToggleButton" />
+        </LinearLayout>
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                 android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Show Compass" />
+
+            <ToggleButton
+                android:id="@+id/setting_fragment_toggleCompass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ToggleButton" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/setting_fragment_contactUs"
+            style="@style/text.lightblue"
+            android:layout_marginTop="@dimen/distance_very_long"
+            android:text="Contact Us"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/setting_fragment_toc"
+            style="@style/text.lightblue"
+            android:layout_marginTop="@dimen/distance_normal"
+            android:text="Term and Conditions"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/setting_fragment_about"
+            style="@style/text.lightblue"
+            android:layout_marginTop="@dimen/distance_normal"
+            android:text="About"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

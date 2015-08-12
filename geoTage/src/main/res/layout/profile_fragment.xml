@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/screen.with_padding"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/profile_fragment_tvAction"
+        style="@style/text.label.center"
+        android:layout_width="match_parent"
+        android:text="Action" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            style="@style/screen.with_padding"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/profile_fragment_ivAvatar"
+                style="@style/image"
+                android:layout_gravity="center"
+                android:src="@drawable/avatar" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/text.medium.bold"
+                    android:text="General Information" />
+
+                <LinearLayout style="@style/panel_form" >
+
+                    <EditText
+                        android:id="@+id/profile_fragment_etName"
+                        style="@style/text.field.singleLine"
+                        android:layout_width="match_parent"
+                        android:hint="Full Name*" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/profile_fragment_etJob"
+                        style="@style/text.field.singleLine"
+                        android:layout_width="match_parent"
+                        android:hint="Job title* (Undergraduate Student/Professional/etc)" />
+
+                    <EditText
+                        android:id="@+id/profile_fragment_etUniversity"
+                        style="@style/text.field.singleLine"
+                        android:layout_width="match_parent"
+                        android:hint="Company/University Name*" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <EditText
+                            android:id="@+id/profile_fragment_etBirthday"
+                            style="@style/text.field.singleLine"
+                            android:layout_width="match_parent"
+                            android:layout_marginRight="@dimen/distance_normal"
+                            android:layout_weight="1" android:enabled="false"
+                            android:hint="Birthday*" />
+
+                        <Button
+                            android:id="@+id/profile_fragment_btnSetDate"
+                            style="@style/colored_button.blue"
+                            android:text="Set Date" >
+                        </Button>
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/profile_fragment_etEmail"
+                        style="@style/text.field.singleLine"
+                        android:layout_width="match_parent"
+                        android:hint="Email*" />
+
+                    <TextView
+                        android:id="@+id/profile_fragment_tvGender"
+                        style="@style/text.field"
+                        android:layout_width="match_parent"
+                        android:hint="Gender*"
+                        android:padding="@dimen/distance_short"
+                        android:textSize="@dimen/text_medium" />
+
+                    <Spinner
+                        android:id="@+id/profile_fragment_spinnerGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                    </Spinner>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/distance_normal"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/text.medium.bold"
+                    android:text="Other Information" />
+
+                <LinearLayout style="@style/panel_form" >
+
+                    <EditText
+                        android:id="@+id/profile_fragment_etPhone"
+                        style="@style/text.field.singleLine"
+                        android:layout_width="match_parent"
+                        android:hint="Phone Number" />
+
+                    <EditText
+                        android:id="@+id/profile_fragment_etAddress"
+                        style="@style/text.field"
+                        android:layout_width="match_parent"
+                        android:hint="Address" />
+
+                    <EditText
+                        android:id="@+id/profile_fragment_etCity"
+                        style="@style/text.field.singleLine"
+                        android:layout_width="match_parent"
+                        android:hint="Birth Place" />
+
+                    <EditText
+                        android:id="@+id/profile_fragment_etAbout"
+                        style="@style/text.field"
+                        android:layout_width="match_parent"
+                        android:gravity="left|top"
+                        android:hint="About me"
+                        android:lines="3"
+                        android:singleLine="false" />
+                </LinearLayout>
+            </LinearLayout>
+<Button android:layout_marginTop="@dimen/distance_normal"
+                            android:id="@+id/profile_fragment_btnChangePassword"
+                            style="@style/colored_button.blue"
+                            android:text="Change Password" >
+                        </Button>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/distance_very_long"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/text.medium.bold"
+                    android:text="Privacy" />
+
+                <LinearLayout
+                    style="@style/panel_form"
+                    android:padding="@dimen/distance_short" >
+
+                    <CheckBox
+                        android:id="@+id/profile_fragment_checkPrivacy"
+                        android:layout_width="wrap_content" android:focusableInTouchMode="false"
+                        android:layout_height="wrap_content" android:focusable="false"
+                        android:text="Show Email and Phone number to public" />
+
+                    <EditText
+                        android:id="@+id/profile_fragment_etPassword"
+                        style="@style/text.field.singleLine"
+                        android:layout_width="match_parent"
+                        android:hint="Password to login"
+                        android:inputType="textPassword" />
+
+                    <EditText
+                        android:id="@+id/profile_fragment_etConfirmPassword"
+                        style="@style/text.field.singleLine"
+                        android:layout_width="match_parent"
+                        android:hint="Re-type password to login"
+                        android:inputType="textPassword" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/panel_button" >
+
+                <Button
+                    android:id="@+id/profile_fragment_btnCancel"
+                    style="@style/colored_button.red"
+                    android:text="Back" />
+
+                <Button
+                    android:id="@+id/profile_fragment_btnAction"
+                    style="@style/colored_button.blue"
+                    android:layout_marginLeft="@dimen/distance_normal"
+                    android:text="Action" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

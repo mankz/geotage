@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/blue" >
+
+        <TextView
+            style="@style/toolbar_title_with_back"
+            android:layout_gravity="left"
+            android:layout_marginLeft="0dp"
+            android:text="Set Location" android:layout_weight="1">
+        </TextView>
+
+        <Button android:background="@drawable/blue_selector"
+            android:onClick="ok" android:layout_height="match_parent"
+            android:text="Done" android:layout_width="wrap_content"
+            android:textColor="@color/clouds" android:layout_gravity="right"
+            android:textStyle="bold" >
+        </Button>
+
+<!--         <Button -->
+<!--             style="@style/toolbar_button" -->
+<!--             android:onClick="cancel" -->
+<!--             android:text="Cancel" -->
+<!--             android:textColor="@color/clouds" -->
+<!--             android:textStyle="bold" > -->
+<!--         </Button> -->
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/set_location_tvLocation"
+        style="@style/text.medium"
+        android:padding="@dimen/distance_normal"
+        android:text="Location : " >
+    </TextView>
+
+    <fragment
+        android:id="@+id/set_location_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        map:cameraZoom="10"
+        map:mapType="terrain"
+        map:uiRotateGestures="true"
+        map:uiScrollGestures="true"
+        map:uiTiltGestures="true"
+        map:uiZoomControls="true"
+        map:uiZoomGestures="true" />
+
+</LinearLayout>

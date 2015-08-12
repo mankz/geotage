@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/screen.with_padding"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/text.label.center"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="Login" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/distance_normal"
+        android:background="@drawable/silver_round_bg_default"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/distance_normal"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="@dimen/logo_size"
+            android:layout_height="@dimen/logo_size"
+            android:src="@drawable/warning" />
+
+        <TextView
+            style="@style/text.normal"
+            android:gravity="center"
+            android:text="You must Login/Register to do this action"
+            android:textColor="@color/pomegranate"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/login_fragment_etEmail"
+        style="@style/text.field.singleLine"
+        android:layout_marginTop="@dimen/distance_normal"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/login_fragment_etPassword"
+        style="@style/text.field.singleLine"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/warning_fragment_tvForgotPassword"
+        style="@style/text.small"
+        android:layout_gravity="right"
+        android:padding="@dimen/distance_short"
+        android:text="Forgot Password?" > 
+    </TextView>
+
+    <Button
+        android:id="@+id/warning_fragment_btnLogin"
+        style="@style/colored_button.green"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/distance_normal"
+        android:text="Login" />
+
+    <TextView
+        style="@style/text.lightblue"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/distance_normal"
+        android:layout_marginTop="@dimen/distance_very_long"
+        android:text="Want to join? Please Register"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/warning_fragment_btnRegister"
+        style="@style/colored_button.blue"
+        android:text="Register" />
+
+</LinearLayout><!-- From: file:/C:/Users/mankz_/Documents/Migrasi/GeoTage/geoTage/src/main/res/layout/login_fragment.xml -->

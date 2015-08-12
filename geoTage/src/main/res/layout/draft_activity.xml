@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/screen"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/toolbar"
+        android:gravity="left"
+        android:paddingLeft="0dp" >
+
+        <TextView
+            style="@style/toolbar_title_with_back"
+            android:onClick="goBack"
+            android:text="Draft" >
+        </TextView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/draft_activity_lvDraft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

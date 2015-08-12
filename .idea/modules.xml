@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GeoTage.iml" filepath="$PROJECT_DIR$/GeoTage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/geoTage/geoTage.iml" filepath="$PROJECT_DIR$/geoTage/geoTage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageSlider/imageSlider.iml" filepath="$PROJECT_DIR$/imageSlider/imageSlider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photoView/photoView.iml" filepath="$PROJECT_DIR$/photoView/photoView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefreshListView/pullToRefreshListView.iml" filepath="$PROJECT_DIR$/pullToRefreshListView/pullToRefreshListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulltorefresh/pulltorefresh.iml" filepath="$PROJECT_DIR$/pulltorefresh/pulltorefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scaleImageView/scaleImageView.iml" filepath="$PROJECT_DIR$/scaleImageView/scaleImageView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/universalImageLoader/universalImageLoader.iml" filepath="$PROJECT_DIR$/universalImageLoader/universalImageLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volley/volley.iml" filepath="$PROJECT_DIR$/volley/volley.iml" />
+    </modules>
+  </component>
+</project>

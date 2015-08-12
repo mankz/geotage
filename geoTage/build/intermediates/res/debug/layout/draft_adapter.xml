@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/info_item_view"
+    style="@style/screen.with_padding"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/distance_normal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/draft_adapter_tvName"
+            style="@style/text.medium"
+            android:text="User name"
+            android:textColor="@color/midnight_blue" />
+
+        <TextView
+            android:id="@+id/draft_adapter_tvAddress"
+            style="@style/text.small"
+            android:text="User address"
+            android:textColor="@color/asbestos" />
+
+        <TextView
+            android:id="@+id/draft_adapter_tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+
+        <LinearLayout
+            android:id="@+id/draft_adater_panelAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="right" >
+
+            <Button
+                android:id="@+id/draft_adapter_btnDelete"
+                style="@style/list_action_btn"
+                android:focusable="false" 
+                android:focusableInTouchMode="false"
+                android:text="Delete"
+                android:textColor="@color/alizarin" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/mankz_/Documents/Migrasi/GeoTage/geoTage/src/main/res/layout/draft_adapter.xml -->

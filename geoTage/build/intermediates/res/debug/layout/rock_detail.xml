@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context="mam.gprg.ourrocks.rock_detailActivity" >
+
+    <LinearLayout style="@style/toolbar" >
+
+         <ImageButton
+            android:id="@+id/rock_detail_ibInfo"
+            style="@style/toolbar_button"
+            android:onClick="onMenuClick"
+            android:src="@drawable/info" />
+
+         
+
+        <ImageButton
+            android:id="@+id/rock_detail_ibComments"
+            style="@style/toolbar_button"
+            android:onClick="onMenuClick"
+            android:src="@drawable/comments" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/rock_detail_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_weight="1">
+    </android.support.v4.view.ViewPager>
+<TextView style="@style/ads" android:text="Advertisement Here"></TextView>
+</LinearLayout><!-- From: file:/C:/Users/mankz_/Documents/Migrasi/GeoTage/geoTage/src/main/res/layout/rock_detail.xml -->

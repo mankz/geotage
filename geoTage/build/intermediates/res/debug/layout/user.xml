@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/toolbar"
+        android:gravity="left"
+        android:paddingLeft="0dp" >
+
+        <TextView
+            style="@style/toolbar_title_with_back"
+            android:text="User Profile" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout style="@style/screen.with_padding" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/sunflower"
+            android:padding="@dimen/distance_short" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/user_tvName"
+                    style="@style/text.medium"
+                    android:text="Username" />
+
+                <TextView
+                    android:id="@+id/user_tvDesc"
+                    style="@style/text.small"
+                    android:text="User description" >
+                </TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/user_ivAvatar"
+                android:layout_width="@dimen/avatar"
+                android:layout_height="@dimen/avatar" android:scaleType="centerCrop"
+                android:layout_marginLeft="@dimen/distance_short"
+                android:src="@drawable/avatar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/distance_short" >
+<TextView
+                android:id="@+id/user_tvSex"
+                style="@style/text.drawableLeft"
+                android:drawableLeft="@drawable/male"
+                android:text="Sex" />
+            <TextView
+                android:id="@+id/user_tvDate"
+                style="@style/text.drawableLeft"
+                android:drawableLeft="@drawable/birthday"
+                android:text="Birthdate" />
+
+            <TextView
+                android:id="@+id/user_tvEmail"
+                style="@style/text.drawableLeft"
+                android:drawableLeft="@drawable/email"
+                android:text="Email" />
+
+            <TextView
+                android:id="@+id/user_tvPhone"
+                style="@style/text.drawableLeft"
+                android:drawableLeft="@drawable/phone"
+                android:text="Phone" />
+            
+            
+            <TextView
+                android:id="@+id/user_tvAddress"
+                style="@style/text.drawableLeft"
+                android:drawableLeft="@drawable/home_5"
+                android:text="Address" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/user_tvCity"
+                    style="@style/text.drawableLeft"
+                    android:drawableLeft="@drawable/world_map"
+                    android:text="City" />
+            </LinearLayout>
+
+            <TextView android:id="@+id/user_tvAbout"
+                style="@style/text.drawableLeft"
+                android:drawableLeft="@drawable/info_4"
+                android:text="About this user" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/mankz_/Documents/Migrasi/GeoTage/geoTage/src/main/res/layout/user.xml -->

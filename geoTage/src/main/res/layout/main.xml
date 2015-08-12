@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mam.gprg.ourrocks.MainActivity" >
+
+    <LinearLayout style="@style/toolbar" >
+
+        <ImageButton
+            android:id="@+id/main_ibMap"
+            style="@style/toolbar_button"
+            android:onClick="onMenuClick"
+            android:src="@drawable/globe" />
+
+        <ImageButton
+            android:id="@+id/main_ibDirectory"
+            style="@style/toolbar_button"
+            android:onClick="onMenuClick"
+            android:src="@drawable/view_details" />
+
+        <ImageButton
+            android:id="@+id/main_ibNearestPlace"
+            style="@style/toolbar_button"
+            android:onClick="onMenuClick"
+            android:src="@drawable/google_place_optimization" />
+
+        <ImageButton
+            android:id="@+id/main_ibAddPlace"
+            style="@style/toolbar_button"
+            android:onClick="onMenuClick"
+            android:src="@drawable/settings_5" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        style="@style/ads"
+        android:text="Advertisement Here" >
+    </TextView>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/screen" >
+
+    <TextView
+        android:id="@+id/simple_text_text"
+        style="@style/text.normal"
+        android:maxLines="2"
+        android:padding="@dimen/distance_short"
+        android:singleLine="false"
+        android:text="Simple text" />
+
+</LinearLayout>

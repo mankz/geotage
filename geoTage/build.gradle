@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+
+    defaultConfig {
+        applicationId "mam.gprg.ourrocks"
+        minSdkVersion 14
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':universalImageLoader')
+    compile project(':imageSlider')
+    compile project(':volley')
+    compile project(':pulltorefresh')
+    compile project(':scaleImageView')
+    compile project(':photoView')
+    compile project(':pullToRefreshListView')
+    compile files('libs/acra-4.5.0.jar')
+    compile files('libs/apache-mime4j-0.6.jar')
+    compile files('libs/httpmime-4.0.1.jar')
+    compile files('libs/imgscalr-lib-4.2.jar')
+    compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.google.android.gms:play-services:7.5.0'
+}

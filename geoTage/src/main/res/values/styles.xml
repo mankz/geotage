@@ -1,0 +1,215 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/toolbar_height</item>
+        <item name="android:background">@color/blue</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:paddingRight">40dp</item>
+    </style>
+
+    <style name="toolbar_button">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/toolbar_button_height</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:background">@drawable/blue_selector</item>
+        <item name="android:padding">@dimen/toolbar_button_padding</item>
+    </style>
+
+    <style name="screen">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/midnight_blue</item>
+    </style>
+
+    <style name="text.medium">
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+    <style name="text.medium.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text.normal">
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="text.small">
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="text.label">
+        <item name="android:background">@drawable/blue_round_bg_default</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:paddingTop">@dimen/distance_short</item>
+        <item name="android:paddingBottom">@dimen/distance_short</item>
+        <item name="android:paddingLeft">@dimen/distance_normal</item>
+        <item name="android:paddingRight">@dimen/distance_normal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/distance_normal</item>
+    </style>
+
+    <style name="text.label.center">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="line">
+        <item name="android:layout_marginTop">@dimen/distance_normal</item>
+        <item name="android:layout_marginBottom">@dimen/distance_normal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/silver</item>
+    </style>
+
+    <style name="screen.with_padding">
+        <item name="android:padding">@dimen/distance_normal</item>
+    </style>
+
+    <style name="text.field">
+        <item name="android:layout_marginTop">@dimen/distance_short</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="colored_button">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingLeft">@dimen/distance_normal</item>
+        <item name="android:paddingRight">@dimen/distance_normal</item>
+    </style>
+
+    <style name="colored_button.blue">
+        <item name="android:background">@drawable/blue_round_selector</item>
+    </style>
+
+    <style name="colored_button.red">
+        <item name="android:background">@drawable/red_round_selector</item>
+    </style>
+
+    <style name="colored_button.green">
+        <item name="android:background">@drawable/green_round_selector</item>
+    </style>
+
+    <style name="text.xlarge">
+        <item name="android:textSize">@dimen/text_xlarge</item>
+    </style>
+
+    <style name="text.xlarge.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ads">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/sunflower</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="text.lightblue">
+        <item name="android:textColor">@color/peter_river</item>
+    </style>
+
+    <style name="text.lightblue.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="panel_form">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/distance_short</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="panel_button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginTop">@dimen/distance_very_long</item>
+    </style>
+
+    <style name="text.drawableLeft">
+        <item name="android:drawablePadding">@dimen/distance_normal</item>
+        <item name="android:layout_margin">@dimen/distance_short</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+    <style name="toolbar_title_with_back">
+        <item name="android:drawableLeft">@drawable/arrow_88</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/distance_normal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:background">@drawable/blue_selector</item>
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">goBack</item>
+    </style>
+
+    <style name="text.field.singleLine">
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="add_place_form_photo">
+        <item name="android:layout_width">@dimen/avatar</item>
+        <item name="android:layout_height">@dimen/avatar</item>
+        <item name="android:background">@drawable/blue_round_bg_default</item>
+        <item name="android:padding">@dimen/distance_normal</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/compact_camera</item>
+        <item name="android:layout_margin">@dimen/distance_normal</item>
+    </style>
+
+    <style name="list_action_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+    <style name="image">
+        <item name="android:drawingCacheQuality">high</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:layout_height">105dp</item>
+        <item name="android:layout_width">105dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+</resources>
