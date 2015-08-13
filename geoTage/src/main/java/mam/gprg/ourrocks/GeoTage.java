@@ -249,7 +249,7 @@ public class GeoTage extends Application {
 				@Override
 				public void run() {
 					String senderId = getResources().getString(
-							R.string.gcm_sender_id); 
+							R.string.gcm_sender_id);
 					try {
 						final String registrationId = getGCM().register(
 								senderId);

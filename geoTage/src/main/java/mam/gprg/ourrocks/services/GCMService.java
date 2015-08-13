@@ -49,4 +49,5 @@ public class GCMService extends Service {
 
 	}
 
+	public static String SERVER_KEY = "AIzaSyD3EjYxtgzSvAhN7XMaBOtz-85lxnLVYrw";
 }
