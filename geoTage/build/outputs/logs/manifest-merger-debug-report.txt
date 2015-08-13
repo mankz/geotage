@@ -21,6 +21,7 @@ MERGED from GeoTage:volley:unspecified:7:5
 MERGED from GeoTage:scaleImageView:unspecified:7:5
 MERGED from GeoTage:photoView:unspecified:7:5
 MERGED from GeoTage:pullToRefreshListView:unspecified:7:5
+MERGED from com.android.support:support-v4:22.2.1:20:5
 MERGED from com.google.android.gms:play-services:7.5.0:18:5
 MERGED from com.google.android.gms:play-services-ads:7.5.0:23:5
 MERGED from com.google.android.gms:play-services-base:7.5.0:18:5
@@ -104,7 +105,6 @@ MERGED from com.google.android.gms:play-services-base:7.5.0:18:5
 MERGED from com.android.support:support-v4:22.2.1:20:5
 MERGED from com.google.android.gms:play-services-wearable:7.5.0:18:5
 MERGED from com.google.android.gms:play-services-base:7.5.0:18:5
-MERGED from com.android.support:support-v4:22.2.1:20:5
 MERGED from com.android.support:support-v4:22.2.1:20:5
 	android:targetSdkVersion
 		ADDED from AndroidManifest.xml:9:9
@@ -211,6 +211,7 @@ MERGED from GeoTage:volley:unspecified:11:5
 MERGED from GeoTage:pulltorefresh:unspecified:7:5
 MERGED from GeoTage:scaleImageView:unspecified:11:5
 MERGED from GeoTage:photoView:unspecified:11:5
+MERGED from com.android.support:support-v4:22.2.1:22:5
 MERGED from com.google.android.gms:play-services:7.5.0:19:5
 MERGED from com.google.android.gms:play-services-ads:7.5.0:24:5
 MERGED from com.google.android.gms:play-services-base:7.5.0:20:5
@@ -294,7 +295,6 @@ MERGED from com.google.android.gms:play-services-base:7.5.0:20:5
 MERGED from com.android.support:support-v4:22.2.1:22:5
 MERGED from com.google.android.gms:play-services-wearable:7.5.0:19:5
 MERGED from com.google.android.gms:play-services-base:7.5.0:20:5
-MERGED from com.android.support:support-v4:22.2.1:22:5
 MERGED from com.android.support:support-v4:22.2.1:22:5
 	android:label
 		ADDED from AndroidManifest.xml:43:9
@@ -418,6 +418,40 @@ service#mam.gprg.ourrocks.services.GCMService
 ADDED from AndroidManifest.xml:115:9
 	android:name
 		ADDED from AndroidManifest.xml:115:18
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from AndroidManifest.xml:119:9
+	android:exported
+		ADDED from AndroidManifest.xml:121:13
+	android:permission
+		ADDED from AndroidManifest.xml:122:13
+	android:name
+		ADDED from AndroidManifest.xml:120:13
+service#mam.gprg.ourrocks.gcm.MyGcmListenerService
+ADDED from AndroidManifest.xml:131:9
+	android:exported
+		ADDED from AndroidManifest.xml:133:13
+	android:name
+		ADDED from AndroidManifest.xml:132:13
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from AndroidManifest.xml:134:13
+service#mam.gprg.ourrocks.gcm.MyInstanceIDListenerService
+ADDED from AndroidManifest.xml:140:9
+	android:exported
+		ADDED from AndroidManifest.xml:142:13
+	android:name
+		ADDED from AndroidManifest.xml:141:13
+intent-filter#com.google.android.gms.iid.InstanceID
+ADDED from AndroidManifest.xml:143:13
+action#com.google.android.gms.iid.InstanceID
+ADDED from AndroidManifest.xml:144:17
+	android:name
+		ADDED from AndroidManifest.xml:144:25
+service#mam.gprg.ourrocks.gcm.RegistrationIntentService
+ADDED from AndroidManifest.xml:148:9
+	android:exported
+		ADDED from AndroidManifest.xml:150:13
+	android:name
+		ADDED from AndroidManifest.xml:149:13
 android:uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from AndroidManifest.xml:2:1 reason: com.daimajia.slider.library has a targetSdkVersion < 4
 activity#com.matabii.dev.scaleimageview.ScaleImageViewActivity

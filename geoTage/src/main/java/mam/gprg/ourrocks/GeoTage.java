@@ -244,58 +244,60 @@ public class GeoTage extends Application {
 
 	public void registerGCM(final Activity activity) {
 		if (isConnected())
-			new Thread() {
+//			new Thread() {
+//
+//				@Override
+//				public void run() {
+//					String senderId = getResources().getString(
+//							R.string.gcm_sender_id);
+//					try {
+//						final String registrationId = getGCM().register(
+//								senderId);
+//						Listener<String> okListener = new Listener<String>() {
+//
+//							@Override
+//							public void onResponse(String response) {
+//								log(this, response);
+//								Editor edit = getPref().edit();
+//								edit.putString(SettingFragment.NOTIF_ME,
+//										registrationId);
+//								edit.commit();
+//							}
+//						};
+//						ErrorListener errorListener = new ErrorListener() {
+//
+//							@Override
+//							public void onErrorResponse(VolleyError error) {
+//								// TODO Auto-generated method stub
+//
+//							}
+//						};
+//						StringRequest request = new StringRequest(Method.POST,
+//								API.CLIENTS_CHANGE_GCM_ID, okListener,
+//								errorListener) {
+//							@Override
+//							protected Map<String, String> getParams()
+//									throws AuthFailureError {
+//								HashMap<String, String> params = new HashMap<String, String>();
+//								params.put("gcm_id", registrationId);
+//								params.put("user_id",
+//										String.valueOf(getUserId()));
+//								return params;
+//							}
+//						};
+//						getQueue().add(request);
+//						log(this, request.getUrl());
+//					} catch (IOException e) {
+//						// TODO Auto-generated catch block
+//						e.printStackTrace();
+//					}
+//
+//				};
+//
+//			}.start();
+		{
 
-				@Override
-				public void run() {
-					String senderId = getResources().getString(
-							R.string.gcm_sender_id);
-					try {
-						final String registrationId = getGCM().register(
-								senderId);
-						Listener<String> okListener = new Listener<String>() {
-
-							@Override
-							public void onResponse(String response) {
-								log(this, response);
-								Editor edit = getPref().edit();
-								edit.putString(SettingFragment.NOTIF_ME,
-										registrationId);
-								edit.commit();
-							}
-						};
-						ErrorListener errorListener = new ErrorListener() {
-
-							@Override
-							public void onErrorResponse(VolleyError error) {
-								// TODO Auto-generated method stub
-
-							}
-						};
-						StringRequest request = new StringRequest(Method.POST,
-								API.CLIENTS_CHANGE_GCM_ID, okListener,
-								errorListener) {
-							@Override
-							protected Map<String, String> getParams()
-									throws AuthFailureError {
-								HashMap<String, String> params = new HashMap<String, String>();
-								params.put("gcm_id", registrationId);
-								params.put("user_id",
-										String.valueOf(getUserId()));
-								return params;
-							}
-						};
-						getQueue().add(request);
-						log(this, request.getUrl());
-					} catch (IOException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-
-				};
-
-			}.start();
-
+		}
 	}
 
 	public void unregisterGCM() {

@@ -49,14 +49,14 @@ public class RegistrationIntentService extends IntentService {
     GeoTage app;
 
     public RegistrationIntentService() {
-
         super(TAG);
-
-        app  = (GeoTage) getApplication();
-    }
+     }
 
     @Override
     protected void onHandleIntent(Intent intent) {
+        if(app == null)
+            app  = (GeoTage) getApplication();
+
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
 
         try {
@@ -72,8 +72,7 @@ public class RegistrationIntentService extends IntentService {
                         GoogleCloudMessaging.INSTANCE_ID_SCOPE, null);
                 // [END get_token]
                 Log.i(TAG, "GCM Registration Token: " + token);
-
-                // TODO: Implement this method to send any registration to your app's servers.
+                 // TODO: Implement this method to send any registration to your app's servers.
                 sendRegistrationToServer(token);
 
                 // Subscribe to topic channels
@@ -105,11 +104,11 @@ public class RegistrationIntentService extends IntentService {
      *
      * @param token The new token.
      */
-    private void sendRegistrationToServer(String token) {
-
+    private void sendRegistrationToServer(final String token) {
         Response.Listener<String> okListener = new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
+                app.log(this, "responsenya " + response);
                  SharedPreferences.Editor edit = PreferenceManager.getDefaultSharedPreferences(RegistrationIntentService.this
                  ).edit();
                 edit.putString(SettingFragment.NOTIF_ME,
@@ -136,9 +135,10 @@ public class RegistrationIntentService extends IntentService {
                 return params;
             }
         };
-        app.getQueue().add(request);
-        app.log(this, request.getUrl());
-     }
+        app.log(this, "user id " + app.getUserId());
+        app.log(this, "change " + request.getUrl());
+         app.getQueue().add(request);
+      }
 
     /**
      * Subscribe to any GCM topics of interest, as defined by the TOPICS constant.

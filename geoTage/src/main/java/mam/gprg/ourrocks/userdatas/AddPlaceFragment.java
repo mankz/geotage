@@ -82,7 +82,7 @@ public class AddPlaceFragment extends Fragment implements OnClickListener,
 	@Override
 	public void onViewCreated(View view, Bundle savedInstanceState) {
 		super.onViewCreated(view, savedInstanceState);
-		app.isLoggedIn();
+		if(app.isLoggedIn())
 		getUserRocks(false);
 	}
 
