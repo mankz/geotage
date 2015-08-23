@@ -110,16 +110,17 @@ public class RocksFragment extends Fragment implements GoogleApiClient.Connectio
 				.findFragmentById(R.id.rocks_fragment_map);
 	//	map = mapFragment.getMap();
 		mapFragment.getMapAsync(this);
-		if(map != null){
-			map.setMyLocationEnabled(true);
-			// map.setOnMapClickListener(this);
-			map.setOnMarkerClickListener(this);
-			// map.setOnMarkerDragListener(this);
-			map.setOnInfoWindowClickListener(this);
-			// mapFragment = SupportMapFragment.newInstance(options);
-			// getChildFragmentManager().beginTransaction()
-			// .add(R.id.rocks_fragment_map_container, mapFragment).commit();			
-		}
+
+//		if(map != null){
+//			map.setMyLocationEnabled(true);
+//			// map.setOnMapClickListener(this);
+//			map.setOnMarkerClickListener(this);
+//			// map.setOnMarkerDragListener(this);
+//			map.setOnInfoWindowClickListener(this);
+//			// mapFragment = SupportMapFragment.newInstance(options);
+//			// getChildFragmentManager().beginTransaction()
+//			// .add(R.id.rocks_fragment_map_container, mapFragment).commit();
+//		}
  		Button btnNormal = (Button) layout
 				.findViewById(R.id.rocks_fragment_btnNormal);
 		Button btnTerrain = (Button) layout
@@ -156,6 +157,9 @@ public class RocksFragment extends Fragment implements GoogleApiClient.Connectio
 		loc = LocationServices.FusedLocationApi.getLastLocation(
 				client);
 
+		if(map != null)
+			map.animateCamera(CameraUpdateFactory.newLatLng(new LatLng(loc
+					.getLatitude(), loc.getLongitude())));
 //		LocationRequest request = new LocationRequest();
 //		request.setSmallestDisplacement(1000);
 //		client.requestLocationUpdates(request, this);
@@ -318,6 +322,7 @@ public class RocksFragment extends Fragment implements GoogleApiClient.Connectio
 	}
 
 	public void add(Rock rock) {
+		Log.d("ADD ROCK " + rock.getName(), "MAP NULL? " + (map == null ?  "YES":"NOT") );
 		if (map != null) {
 
 			rocks.add(rock);
@@ -353,7 +358,6 @@ public class RocksFragment extends Fragment implements GoogleApiClient.Connectio
 
 			Marker marker = map.addMarker(opt);
 			markerIds.add(marker.getId());
-
 		}
 
 	}
@@ -367,6 +371,7 @@ public class RocksFragment extends Fragment implements GoogleApiClient.Connectio
 
 	@Override
 	public void onMapReady(GoogleMap map) {
+		this.map = map;
 		map.setMyLocationEnabled(true);
 		// map.setOnMapClickListener(this);
 		map.setOnMarkerClickListener(this);
@@ -375,5 +380,11 @@ public class RocksFragment extends Fragment implements GoogleApiClient.Connectio
 		// mapFragment = SupportMapFragment.newInstance(options);
 		// getChildFragmentManager().beginTransaction()
 		// .add(R.id.rocks_fragment_map_container, mapFragment).commit();
+	}
+
+	@Override
+	public void onDestroy() {
+		super.onDestroy();
+
 	}
 }

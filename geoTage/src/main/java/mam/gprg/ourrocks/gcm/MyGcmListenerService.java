@@ -20,6 +20,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Bundle;
@@ -38,14 +39,14 @@ public class MyGcmListenerService extends GcmListenerService {
     /**
      * Called when message is received.
      *
-     * @param from SenderID of the sender.
-     * @param data Data bundle containing message data as key/value pairs.
-     *             For Set of keys use data.keySet().
+     * @param from   SenderID of the sender.
+     * @param extras Data bundle containing message data as key/value pairs.
+     *               For Set of keys use data.keySet().
      */
     // [START receive_message]
     @Override
-    public void onMessageReceived(String from, Bundle data) {
-        String message = data.getString("message");
+    public void onMessageReceived(String from, Bundle extras) {
+        String message = extras.getString("message");
         Log.d(TAG, "From: " + from);
         Log.d(TAG, "Message: " + message);
 
@@ -60,7 +61,17 @@ public class MyGcmListenerService extends GcmListenerService {
          * In some cases it may be useful to show a notification indicating to the user
          * that a message was received.
          */
-        sendNotification(message);
+
+
+        Log.d("EXTRAS DI receiver", extras.toString());
+        String notifAction = extras.getString("notif_action");
+        if (notifAction.equals("add_comment")) {
+            Intent newCommentIntent = new Intent(notifAction);
+            newCommentIntent.putExtras(extras);
+            sendBroadcast(newCommentIntent);
+            notify(extras);
+        }
+      //  sendNotification(message);
     }
     // [END receive_message]
 
@@ -89,4 +100,38 @@ public class MyGcmListenerService extends GcmListenerService {
 
         notificationManager.notify(0 /* ID of notification */, notificationBuilder.build());
     }
-}
+
+    public void notify(Bundle extras) {
+        final int rockId = Integer.parseInt(extras.getString("object_id"));
+        final int senderId = Integer.parseInt(extras.getString("sender_id"));
+        final String message = extras.getString("message");
+        final String senderName = extras.getString("sender_name");
+        final String senderData = extras.getString("sender_data");
+        Log.d("GET NOFIR",
+                senderId
+                        + " / "
+                        + getSharedPreferences("ourrocks",
+                        Context.MODE_PRIVATE).getInt("user_id", 0));
+        if (senderId != getSharedPreferences("ourrocks",
+                Context.MODE_PRIVATE).getInt("user_id", 0)) {
+            NotificationCompat.Builder builder = new NotificationCompat.Builder(
+                    this);
+            NotificationManager nm = (NotificationManager)
+                    getSystemService(Context.NOTIFICATION_SERVICE);
+            builder.setOnlyAlertOnce(true);
+            builder.setContentTitle("New Comment");
+            builder.setContentInfo(senderData);
+            builder.setContentText(senderData);
+            builder.setTicker(message);
+            builder.setAutoCancel(true);
+            builder.setSmallIcon(R.drawable.geotage_logo);
+            builder.setLargeIcon(BitmapFactory.decodeResource(
+                    getResources(), R.drawable.geotage_logo));
+            Intent intent = new Intent(this, RocksDetailActivity.class);
+            intent.putExtra("rock_id", rockId);
+            PendingIntent pIntent = PendingIntent.getActivity(this, 0,
+                    intent, PendingIntent.FLAG_ONE_SHOT);
+            builder.setContentIntent(pIntent);
+            nm.notify(123, builder.build());
+        }
+    }}

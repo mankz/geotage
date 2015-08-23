@@ -22,7 +22,6 @@ import com.android.volley.toolbox.JsonObjectRequest;
 public class SplashActivity extends FragmentActivity {
 
 	GeoTage app;
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

@@ -2,48 +2,6 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-b68002f6f11d05fae142cf1d93e60c3510e879b3.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-a98d34154d84cc94b30ce4348c8e8e14cc4ca000.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-ccd399e8a33e81e0b844734dc7a480dc5fb142be.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-cfbb70127aa10ac708fe4d633c1be28efa9d7356.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-a86dfcee7fa8e1e1cc198c3249e820a60ef05618.jar" />
-    </item>
-    <item
-        jar="C:\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-30f753fa41b850708a13d71f7d1614d9bac87190.jar" />
-    </item>
-    <item
         jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -51,172 +9,18 @@
         <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-8c035cb99ec135f8dc5329a49cdac22db2a243f1.jar" />
     </item>
     <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\GeoTage\volley\unspecified\jars\classes.jar"
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="bcd3bb10f91cd613b6522dcb15b63198441696d1">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-d785167da36e24a164b199b51824784b44bc72ec.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-3446d3b3e39f4d90d10f97a89cf2fa986d46b6ac.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\GeoTage\imageSlider\unspecified\jars\libs\picasso-2.3.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1262995965440e28ba5c4d480c9c9ab4ccce84cc">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\picasso-2.3.3-1aa9cafc39ff78854c59753e6ebe7a96389e9a9c.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\GeoTage\universalImageLoader\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d4f508c7bebfb5903e6cee22ce8b1e50a4f9d438">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-589efe7a2fe43d249384c1d803c3979c4ca8bc59.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\GeoTage\imageSlider\unspecified\jars\libs\NineOldAndroid-2.4.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\NineOldAndroid-2.4.0-5a7cf95cb8baca004d064478a1e85559b9335b7a.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-c88c7840907ad619ab71818939e16412a7c8ed1f.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-d6f8a5fef6a249f7b7896d47ec1811b9809f929e.jar" />
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-b68002f6f11d05fae142cf1d93e60c3510e879b3.jar" />
     </item>
     <item
         jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\GeoTage\scaleImageView\unspecified\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="038fa95eee70ca3ae9a22dc98f8929d47da6a93c">
+        sha1="448eab5addddbcdf97df069ff1eaf82f3fd4cad2">
         <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-c3aef00005f312bdc79281b90ba39f942d3c25a6.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-54418e722993e00f8d6ebc31639bf288a1a7aac4.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-05dc0611d19bacba6ee67b0e0d62a3ec3bcfce46.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d405025c600055237c171a0bbabaa49d69696573">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-31364c330f89db1b641859bc7265eb4922071c74.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\GeoTage\pulltorefresh\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4c091a0104626b378e9b5aca3838065d54ec1e1c">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-19c33e40d57f9aee14fda0715731e2278a8ae012.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-f79c2dbbc321f18299250c0f4af0df9cbf0ae919.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-7b11324677b2b331f4467305008179092955f55c.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\GeoTage\pullToRefreshListView\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f69d45dfa65bfb7fe7feb87a0bb3d79079c7dc1f">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-af361b2aa462aee109c493e62c20d376044679f7.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\GeoTage\photoView\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4c98546698d507bb1c8ed35ea81fd093e250a31c">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-fefad20d2b914439b88b7fbe81cc5effa4ab7cfd.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\libs\imgscalr-lib-4.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d1dc23eae1e473f8b58fe0a56b8cfe13c2c09231">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\imgscalr-lib-4.2-1873cd6702bd9d5a29e518e86ec82017bb5c1de1.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\libs\apache-mime4j-0.6.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="945007627e8d12275d755081a9e609c018e1210d">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\apache-mime4j-0.6-da46b9b28e02e3280ba070a9cc54d696a01985ab.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-578ebbb9cee573059781743ba13c626f7e90937f.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-1249aa6ec41bd803cfbf6d2ac4673116f23285e3.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\libs\acra-4.5.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="44a5eb946e0d83eed4a0128d877ca1fd8168b83a">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\acra-4.5.0-f8f069de1d6ed67b2dae95ff97e2cfeef21e53d2.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-892ea9c92e1c5cd9595d686337fe7f00f7656050.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-980a3adf13b163c019d0ec644000604b80c74fac.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-a89fbf0a855c36f0543d69c229ea078a9e9bff46.jar" />
     </item>
     <item
         jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
@@ -226,20 +30,6 @@
         <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-f086675e0a57f61d156cd9c328a78f306a52f5c1.jar" />
     </item>
     <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-d37f7b62e96e9c6d468d18627081b10a83088016.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-c524eca7bbc23c215253e8d583d4741441d073f2.jar" />
-    </item>
-    <item
         jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\libs\httpmime-4.0.1.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -247,18 +37,11 @@
         <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\httpmime-4.0.1-55eb976d4b1ea3d57ff363ed8480863467d9461a.jar" />
     </item>
     <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-7c6b64cf012f182ae1ac1beebae9f25abd9a8796.jar" />
-    </item>
-    <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\GeoTage\imageSlider\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="191d5582f434155dff7767356af5d15cc7192268">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-ec49cd0210df47236e705f3a33120d457c3f6863.jar" />
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-882e6b73493a3b76c3ef2f470b8cc93356a3a030.jar" />
     </item>
     <item
         jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
@@ -268,11 +51,228 @@
         <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-82a637d3b410d336232c026d4d0191d3b9ca76a4.jar" />
     </item>
     <item
-        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\GeoTage\imageSlider\unspecified\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
-        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-882e6b73493a3b76c3ef2f470b8cc93356a3a030.jar" />
+        sha1="3fc616cccb17ba6fb2500296932b19a5b2700188">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-ec49cd0210df47236e705f3a33120d457c3f6863.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-c524eca7bbc23c215253e8d583d4741441d073f2.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-7c6b64cf012f182ae1ac1beebae9f25abd9a8796.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\GeoTage\universalImageLoader\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9ed392b567e849b7aaf4632de9432c6e1bd2e9a7">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-589efe7a2fe43d249384c1d803c3979c4ca8bc59.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\libs\imgscalr-lib-4.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1dc23eae1e473f8b58fe0a56b8cfe13c2c09231">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\imgscalr-lib-4.2-1873cd6702bd9d5a29e518e86ec82017bb5c1de1.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-892ea9c92e1c5cd9595d686337fe7f00f7656050.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\GeoTage\imageSlider\unspecified\jars\libs\NineOldAndroid-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\NineOldAndroid-2.4.0-5a7cf95cb8baca004d064478a1e85559b9335b7a.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\GeoTage\pullToRefreshListView\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b0103a9ad0a33c51c74a4c44ffbc23df309bca90">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-af361b2aa462aee109c493e62c20d376044679f7.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-7b11324677b2b331f4467305008179092955f55c.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-cfbb70127aa10ac708fe4d633c1be28efa9d7356.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-3446d3b3e39f4d90d10f97a89cf2fa986d46b6ac.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-31364c330f89db1b641859bc7265eb4922071c74.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-ccd399e8a33e81e0b844734dc7a480dc5fb142be.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-a86dfcee7fa8e1e1cc198c3249e820a60ef05618.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-c88c7840907ad619ab71818939e16412a7c8ed1f.jar" />
+    </item>
+    <item
+        jar="C:\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-30f753fa41b850708a13d71f7d1614d9bac87190.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-1249aa6ec41bd803cfbf6d2ac4673116f23285e3.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-d37f7b62e96e9c6d468d18627081b10a83088016.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\libs\apache-mime4j-0.6.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="945007627e8d12275d755081a9e609c018e1210d">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\apache-mime4j-0.6-da46b9b28e02e3280ba070a9cc54d696a01985ab.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-54418e722993e00f8d6ebc31639bf288a1a7aac4.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-980a3adf13b163c019d0ec644000604b80c74fac.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\GeoTage\photoView\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bbf30a2533c0ecb72a20c08d796e27b4fb453a30">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-fefad20d2b914439b88b7fbe81cc5effa4ab7cfd.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-d6f8a5fef6a249f7b7896d47ec1811b9809f929e.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-a89fbf0a855c36f0543d69c229ea078a9e9bff46.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-578ebbb9cee573059781743ba13c626f7e90937f.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\libs\acra-4.5.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44a5eb946e0d83eed4a0128d877ca1fd8168b83a">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\acra-4.5.0-f8f069de1d6ed67b2dae95ff97e2cfeef21e53d2.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-f79c2dbbc321f18299250c0f4af0df9cbf0ae919.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\GeoTage\volley\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="56366c7034f73d08592d84602aa29db190ca29df">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-d785167da36e24a164b199b51824784b44bc72ec.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\GeoTage\imageSlider\unspecified\jars\libs\picasso-2.3.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1262995965440e28ba5c4d480c9c9ab4ccce84cc">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\picasso-2.3.3-1aa9cafc39ff78854c59753e6ebe7a96389e9a9c.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-05dc0611d19bacba6ee67b0e0d62a3ec3bcfce46.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-a98d34154d84cc94b30ce4348c8e8e14cc4ca000.jar" />
+    </item>
+    <item
+        jar="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\exploded-aar\GeoTage\pulltorefresh\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="677d6ddb8d0e0723009bcdba7ec7cb4c69b0afb9">
+        <dex dex="C:\Users\mankz_\Documents\Migrasi\GeoTage\geoTage\build\intermediates\pre-dexed\debug\classes-19c33e40d57f9aee14fda0715731e2278a8ae012.jar" />
     </item>
 
 </items>
